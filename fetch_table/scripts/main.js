@@ -31,7 +31,7 @@ const generateTable = (tableData = []) => {
             const td = document.createElement('td');
             td.innerText = row[k];
             tr.appendChild(td);
-        })
+        });
     })
 
 };
